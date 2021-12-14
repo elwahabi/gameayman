@@ -1,0 +1,55 @@
+
+body {
+background-image: url(./OF6-XCKzfVKLMLgSZOwvYnmj0NNOhOzu9meOAr1EJA-rWQ0HgSWjo-wCGRkKxHVkO212h1024-no-tmp_number_guess_game_apk.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+#box{
+    margin: auto;
+    width: 25%;
+    border: 3px solid rgb(0, 89, 100);
+    padding: 57px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    background-color: rgb(170, 223, 198);
+    animation: ka 5s infinite;
+   
+}
+
+@keyframes ka {
+    25% {background-color: rgb(253, 255, 250);}
+    75% {background-color: rgb(255, 255, 255)  ;}
+  }
+
+
+#userInput{
+    height: 40px;
+    width: 35%;
+    border-radius: 10px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: rgb(1, 155, 104);
+    color: white;
+    font-weight: bold
+}
+.btn:hover{
+    transform:translateY(-2px);
+    background-color: rgb(25, 39, 31);
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        
+        color: rgb(255, 255, 255);
+        margin-top: 105px;
+        font-size: 87px;
+    }
